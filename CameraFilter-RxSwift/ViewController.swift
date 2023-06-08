@@ -6,12 +6,18 @@
 //
 
 import UIKit
+import RxSwift
 
 class ViewController: UIViewController {
+
+	@IBOutlet var applyFilterButton: UIButton!
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
+
+		navigationItem.largeTitleDisplayMode = .always
+		navigationController?.navigationBar.prefersLargeTitles = true
 	}
 
 

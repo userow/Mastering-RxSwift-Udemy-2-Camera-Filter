@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C91AFC2BFC946C8932915EF /* Pods_CameraFilter_RxSwift_CameraFilter_RxSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E287F9E3B8481493B3722D /* Pods_CameraFilter_RxSwift_CameraFilter_RxSwiftUITests.framework */; };
 		91B1976C2A31C4ED00075F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B1976B2A31C4ED00075F04 /* AppDelegate.swift */; };
 		91B1976E2A31C4ED00075F04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B1976D2A31C4ED00075F04 /* SceneDelegate.swift */; };
 		91B197702A31C4ED00075F04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B1976F2A31C4ED00075F04 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 		91B197832A31C4EF00075F04 /* CameraFilter_RxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B197822A31C4EF00075F04 /* CameraFilter_RxSwiftTests.swift */; };
 		91B1978D2A31C4EF00075F04 /* CameraFilter_RxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B1978C2A31C4EF00075F04 /* CameraFilter_RxSwiftUITests.swift */; };
 		91B1978F2A31C4EF00075F04 /* CameraFilter_RxSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B1978E2A31C4EF00075F04 /* CameraFilter_RxSwiftUITestsLaunchTests.swift */; };
+		91B1979C2A31C8EB00075F04 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B1979B2A31C8EB00075F04 /* PhotosCollectionViewController.swift */; };
+		9CA9285A7DD6AAB96A29FC3B /* Pods_CameraFilter_RxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30492FECD07018AD6B6C21EF /* Pods_CameraFilter_RxSwiftTests.framework */; };
+		C1655A7F29B41DF6BB4589F0 /* Pods_CameraFilter_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF29D38D5D9961B388008270 /* Pods_CameraFilter_RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18B6F17D3FB7DFCF7958E342 /* Pods-CameraFilter-RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraFilter-RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-CameraFilter-RxSwift/Pods-CameraFilter-RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		194DEE4365542DAB6A011E81 /* Pods-CameraFilter-RxSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraFilter-RxSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-CameraFilter-RxSwiftTests/Pods-CameraFilter-RxSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		22E287F9E3B8481493B3722D /* Pods_CameraFilter_RxSwift_CameraFilter_RxSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraFilter_RxSwift_CameraFilter_RxSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D7E5A361FE73B5F860B4F1 /* Pods-CameraFilter-RxSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraFilter-RxSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-CameraFilter-RxSwiftTests/Pods-CameraFilter-RxSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		30492FECD07018AD6B6C21EF /* Pods_CameraFilter_RxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraFilter_RxSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B11EDB47BABA52A1F53A169 /* Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests/Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72F5178ACAC415CBF92D7D93 /* Pods-CameraFilter-RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraFilter-RxSwift.release.xcconfig"; path = "Target Support Files/Pods-CameraFilter-RxSwift/Pods-CameraFilter-RxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		91B197682A31C4ED00075F04 /* CameraFilter-RxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CameraFilter-RxSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B1976B2A31C4ED00075F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91B1976D2A31C4ED00075F04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		91B197882A31C4EF00075F04 /* CameraFilter-RxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CameraFilter-RxSwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B1978C2A31C4EF00075F04 /* CameraFilter_RxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFilter_RxSwiftUITests.swift; sourceTree = "<group>"; };
 		91B1978E2A31C4EF00075F04 /* CameraFilter_RxSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFilter_RxSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91B1979B2A31C8EB00075F04 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		ABE408FBFD7CBC980F2F7D2A /* Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests/Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF29D38D5D9961B388008270 /* Pods_CameraFilter_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraFilter_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1655A7F29B41DF6BB4589F0 /* Pods_CameraFilter_RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA9285A7DD6AAB96A29FC3B /* Pods_CameraFilter_RxSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C91AFC2BFC946C8932915EF /* Pods_CameraFilter_RxSwift_CameraFilter_RxSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8797EE3B7E4BCA8EE7079A02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF29D38D5D9961B388008270 /* Pods_CameraFilter_RxSwift.framework */,
+				22E287F9E3B8481493B3722D /* Pods_CameraFilter_RxSwift_CameraFilter_RxSwiftUITests.framework */,
+				30492FECD07018AD6B6C21EF /* Pods_CameraFilter_RxSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		91B1975F2A31C4ED00075F04 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				91B197812A31C4EF00075F04 /* CameraFilter-RxSwiftTests */,
 				91B1978B2A31C4EF00075F04 /* CameraFilter-RxSwiftUITests */,
 				91B197692A31C4ED00075F04 /* Products */,
+				BCCDC871790EA92CF4D749AF /* Pods */,
+				8797EE3B7E4BCA8EE7079A02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +135,7 @@
 				91B197742A31C4EF00075F04 /* Assets.xcassets */,
 				91B197762A31C4EF00075F04 /* LaunchScreen.storyboard */,
 				91B197792A31C4EF00075F04 /* Info.plist */,
+				91B1979B2A31C8EB00075F04 /* PhotosCollectionViewController.swift */,
 			);
 			path = "CameraFilter-RxSwift";
 			sourceTree = "<group>";
@@ -127,6 +157,20 @@
 			path = "CameraFilter-RxSwiftUITests";
 			sourceTree = "<group>";
 		};
+		BCCDC871790EA92CF4D749AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18B6F17D3FB7DFCF7958E342 /* Pods-CameraFilter-RxSwift.debug.xcconfig */,
+				72F5178ACAC415CBF92D7D93 /* Pods-CameraFilter-RxSwift.release.xcconfig */,
+				ABE408FBFD7CBC980F2F7D2A /* Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests.debug.xcconfig */,
+				5B11EDB47BABA52A1F53A169 /* Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests.release.xcconfig */,
+				23D7E5A361FE73B5F860B4F1 /* Pods-CameraFilter-RxSwiftTests.debug.xcconfig */,
+				194DEE4365542DAB6A011E81 /* Pods-CameraFilter-RxSwiftTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91B197922A31C4EF00075F04 /* Build configuration list for PBXNativeTarget "CameraFilter-RxSwift" */;
 			buildPhases = (
+				FFF75DC77CE9506251A7E034 /* [CP] Check Pods Manifest.lock */,
 				91B197642A31C4ED00075F04 /* Sources */,
 				91B197652A31C4ED00075F04 /* Frameworks */,
 				91B197662A31C4ED00075F04 /* Resources */,
+				2E156ACD332134CF1947452D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91B197952A31C4EF00075F04 /* Build configuration list for PBXNativeTarget "CameraFilter-RxSwiftTests" */;
 			buildPhases = (
+				40292F9CB9E607BD23FC38DC /* [CP] Check Pods Manifest.lock */,
 				91B1977A2A31C4EF00075F04 /* Sources */,
 				91B1977B2A31C4EF00075F04 /* Frameworks */,
 				91B1977C2A31C4EF00075F04 /* Resources */,
@@ -169,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91B197982A31C4EF00075F04 /* Build configuration list for PBXNativeTarget "CameraFilter-RxSwiftUITests" */;
 			buildPhases = (
+				32FD6F02EA9897EA1D55808D /* [CP] Check Pods Manifest.lock */,
 				91B197842A31C4EF00075F04 /* Sources */,
 				91B197852A31C4EF00075F04 /* Frameworks */,
 				91B197862A31C4EF00075F04 /* Resources */,
+				5166C762ABAFF55112353000 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E156ACD332134CF1947452D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CameraFilter-RxSwift/Pods-CameraFilter-RxSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CameraFilter-RxSwift/Pods-CameraFilter-RxSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CameraFilter-RxSwift/Pods-CameraFilter-RxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32FD6F02EA9897EA1D55808D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40292F9CB9E607BD23FC38DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CameraFilter-RxSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5166C762ABAFF55112353000 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests/Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests/Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests/Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFF75DC77CE9506251A7E034 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CameraFilter-RxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		91B197642A31C4ED00075F04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +413,7 @@
 				91B197702A31C4ED00075F04 /* ViewController.swift in Sources */,
 				91B1976C2A31C4ED00075F04 /* AppDelegate.swift in Sources */,
 				91B1976E2A31C4ED00075F04 /* SceneDelegate.swift in Sources */,
+				91B1979C2A31C8EB00075F04 /* PhotosCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +585,7 @@
 		};
 		91B197932A31C4EF00075F04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B6F17D3FB7DFCF7958E342 /* Pods-CameraFilter-RxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +614,7 @@
 		};
 		91B197942A31C4EF00075F04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F5178ACAC415CBF92D7D93 /* Pods-CameraFilter-RxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +643,7 @@
 		};
 		91B197962A31C4EF00075F04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D7E5A361FE73B5F860B4F1 /* Pods-CameraFilter-RxSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +664,7 @@
 		};
 		91B197972A31C4EF00075F04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 194DEE4365542DAB6A011E81 /* Pods-CameraFilter-RxSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +685,7 @@
 		};
 		91B197992A31C4EF00075F04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE408FBFD7CBC980F2F7D2A /* Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +704,7 @@
 		};
 		91B1979A2A31C4EF00075F04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B11EDB47BABA52A1F53A169 /* Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
