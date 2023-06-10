@@ -50,7 +50,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="applyFilterButton" destination="oNV-NY-OEX" id="7FI-4c-DQb"/>
-                        <outlet property="imageView" destination="bCR-WB-QRk" id="7jn-ic-gHv"/>
+                        <outlet property="photoImageView" destination="bCR-WB-QRk" id="7jn-ic-gHv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
