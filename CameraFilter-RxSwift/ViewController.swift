@@ -10,7 +10,8 @@ import RxSwift
 
 class ViewController: UIViewController {
 
-	@IBOutlet var applyFilterButton: UIButton!
+	@IBOutlet weak var applyFilterButton: UIButton!
+	@IBOutlet weak var imageView: UIImageView!
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
