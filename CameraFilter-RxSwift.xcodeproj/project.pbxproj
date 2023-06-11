@@ -19,6 +19,7 @@
 		91B1978D2A31C4EF00075F04 /* CameraFilter_RxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B1978C2A31C4EF00075F04 /* CameraFilter_RxSwiftUITests.swift */; };
 		91B1978F2A31C4EF00075F04 /* CameraFilter_RxSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B1978E2A31C4EF00075F04 /* CameraFilter_RxSwiftUITestsLaunchTests.swift */; };
 		91B1979C2A31C8EB00075F04 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B1979B2A31C8EB00075F04 /* PhotosCollectionViewController.swift */; };
+		91DA7DAD2A35B9C900E6B0E6 /* FilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DA7DAC2A35B9C900E6B0E6 /* FilterService.swift */; };
 		9CA9285A7DD6AAB96A29FC3B /* Pods_CameraFilter_RxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30492FECD07018AD6B6C21EF /* Pods_CameraFilter_RxSwiftTests.framework */; };
 		C1655A7F29B41DF6BB4589F0 /* Pods_CameraFilter_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF29D38D5D9961B388008270 /* Pods_CameraFilter_RxSwift.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +64,7 @@
 		91B1978C2A31C4EF00075F04 /* CameraFilter_RxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFilter_RxSwiftUITests.swift; sourceTree = "<group>"; };
 		91B1978E2A31C4EF00075F04 /* CameraFilter_RxSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFilter_RxSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		91B1979B2A31C8EB00075F04 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		91DA7DAC2A35B9C900E6B0E6 /* FilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterService.swift; sourceTree = "<group>"; };
 		ABE408FBFD7CBC980F2F7D2A /* Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests/Pods-CameraFilter-RxSwift-CameraFilter-RxSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF29D38D5D9961B388008270 /* Pods_CameraFilter_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraFilter_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -147,6 +149,7 @@
 		91B1976A2A31C4ED00075F04 /* CameraFilter-RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				91DA7DAB2A35B9B300E6B0E6 /* Services */,
 				91A8AA372A348B12004B59BF /* Modules */,
 				91B1976B2A31C4ED00075F04 /* AppDelegate.swift */,
 				91B1976D2A31C4ED00075F04 /* SceneDelegate.swift */,
@@ -174,6 +177,14 @@
 				91B1978E2A31C4EF00075F04 /* CameraFilter_RxSwiftUITestsLaunchTests.swift */,
 			);
 			path = "CameraFilter-RxSwiftUITests";
+			sourceTree = "<group>";
+		};
+		91DA7DAB2A35B9B300E6B0E6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				91DA7DAC2A35B9C900E6B0E6 /* FilterService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		BCCDC871790EA92CF4D749AF /* Pods */ = {
@@ -431,6 +442,7 @@
 				91B197702A31C4ED00075F04 /* ViewController.swift in Sources */,
 				915BA4FF2A3265C800F2F429 /* PhotoCollectionViewCell.swift in Sources */,
 				91B1976C2A31C4ED00075F04 /* AppDelegate.swift in Sources */,
+				91DA7DAD2A35B9C900E6B0E6 /* FilterService.swift in Sources */,
 				91B1976E2A31C4ED00075F04 /* SceneDelegate.swift in Sources */,
 				91B1979C2A31C8EB00075F04 /* PhotosCollectionViewController.swift in Sources */,
 			);

@@ -14,6 +14,7 @@ class ViewController: UIViewController {
 	@IBOutlet weak var photoImageView: UIImageView!
 
 	let disposeBag = DisposeBag()
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
@@ -22,7 +23,6 @@ class ViewController: UIViewController {
 		navigationController?.navigationBar.prefersLargeTitles = true
 	}
 
-
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 		guard let navC = segue.destination as? UINavigationController,
 		let photosCVC = navC.viewControllers.first as? PhotosCollectionViewController else {
@@ -30,8 +30,25 @@ class ViewController: UIViewController {
 		}
 
 		photosCVC.selectedObject.subscribe(onNext: { [weak self] photo in
-			self?.photoImageView.image = photo
+			DispatchQueue.main.async {
+				self?.updateUI(image: photo)
+			}
 		}).disposed(by: disposeBag)
+	}
+
+	private func updateUI(image: UIImage) {
+		photoImageView.image = image
+		applyFilterButton.isHidden = false
+	}
+
+	@IBAction func applyFilterButtonPressed() {
+		guard let sourceImage = photoImageView.image else { return }
+
+		FilterService().applyFilter(to: sourceImage) { [weak self] filteredImage in
+			DispatchQueue.main.async {
+				self?.photoImageView.image = filteredImage
+			}
+		}
 	}
 }
 

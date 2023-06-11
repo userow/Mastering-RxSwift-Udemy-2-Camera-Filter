@@ -22,23 +22,26 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="500.5"/>
                             </imageView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oNV-NY-OEX">
-                                <rect key="frame" x="132.5" y="588.5" width="110" height="35"/>
+                                <rect key="frame" x="132.5" y="624" width="110" height="35"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Apply Filter">
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="applyFilterButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="rcX-3K-hEB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oNV-NY-OEX" secondAttribute="bottom" constant="8" id="COW-HR-90S"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bCR-WB-QRk" secondAttribute="trailing" id="I8N-HL-J7t"/>
                             <constraint firstItem="bCR-WB-QRk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LVm-8Q-ILp"/>
                             <constraint firstItem="oNV-NY-OEX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dkB-6l-EeK"/>
                             <constraint firstItem="bCR-WB-QRk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="lVK-Ai-9nD"/>
                             <constraint firstItem="bCR-WB-QRk" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.75" id="xKu-V7-OPe"/>
-                            <constraint firstItem="oNV-NY-OEX" firstAttribute="top" secondItem="bCR-WB-QRk" secondAttribute="bottom" constant="24" id="yJ3-7R-z9m"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Camera Filter" id="Ejg-nK-dWe">
